@@ -1,0 +1,3027 @@
+{
+    "compile": {
+        "javax.annotation:javax.annotation-api": {
+            "locked": "1.2",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "javax.inject:javax.inject": {
+            "locked": "1",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-utils"
+            ]
+        },
+        "javax.servlet:javax.servlet-api": {
+            "locked": "3.1.0",
+            "requested": "3.1.0"
+        },
+        "javax.validation:validation-api": {
+            "locked": "1.1.0.Final",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "javax.websocket:javax.websocket-api": {
+            "locked": "1.0",
+            "requested": "1.0"
+        },
+        "javax.ws.rs:javax.ws.rs-api": {
+            "locked": "2.0.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.glassfish.hk2.external:aopalliance-repackaged": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        },
+        "org.glassfish.hk2.external:javax.inject": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-api": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-locator": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-utils": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        },
+        "org.glassfish.hk2:osgi-resource-locator": {
+            "locked": "1.0.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.jersey.bundles.repackaged:jersey-guava": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common"
+            ]
+        },
+        "org.glassfish.jersey.containers:jersey-container-servlet": {
+            "locked": "2.23.1",
+            "requested": "latest.release"
+        },
+        "org.glassfish.jersey.containers:jersey-container-servlet-core": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-client": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-common": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-server": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core"
+            ]
+        },
+        "org.glassfish.jersey.media:jersey-media-jaxb": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.javassist:javassist": {
+            "locked": "3.18.1-GA",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        }
+    },
+    "compileClasspath": {
+        "javax.annotation:javax.annotation-api": {
+            "locked": "1.2",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "javax.inject:javax.inject": {
+            "locked": "1",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-utils"
+            ]
+        },
+        "javax.servlet:javax.servlet-api": {
+            "locked": "3.1.0",
+            "requested": "3.1.0"
+        },
+        "javax.validation:validation-api": {
+            "locked": "1.1.0.Final",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "javax.websocket:javax.websocket-api": {
+            "locked": "1.0",
+            "requested": "1.0"
+        },
+        "javax.ws.rs:javax.ws.rs-api": {
+            "locked": "2.0.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.glassfish.hk2.external:aopalliance-repackaged": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        },
+        "org.glassfish.hk2.external:javax.inject": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-api": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-locator": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-utils": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        },
+        "org.glassfish.hk2:osgi-resource-locator": {
+            "locked": "1.0.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.jersey.bundles.repackaged:jersey-guava": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common"
+            ]
+        },
+        "org.glassfish.jersey.containers:jersey-container-servlet": {
+            "locked": "2.23.1",
+            "requested": "latest.release"
+        },
+        "org.glassfish.jersey.containers:jersey-container-servlet-core": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-client": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-common": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-server": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core"
+            ]
+        },
+        "org.glassfish.jersey.media:jersey-media-jaxb": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.javassist:javassist": {
+            "locked": "3.18.1-GA",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        }
+    },
+    "compileOnly": {
+        "javax.annotation:javax.annotation-api": {
+            "locked": "1.2",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "javax.inject:javax.inject": {
+            "locked": "1",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-utils"
+            ]
+        },
+        "javax.servlet:javax.servlet-api": {
+            "locked": "3.1.0",
+            "requested": "3.1.0"
+        },
+        "javax.validation:validation-api": {
+            "locked": "1.1.0.Final",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "javax.websocket:javax.websocket-api": {
+            "locked": "1.0",
+            "requested": "1.0"
+        },
+        "javax.ws.rs:javax.ws.rs-api": {
+            "locked": "2.0.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.glassfish.hk2.external:aopalliance-repackaged": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        },
+        "org.glassfish.hk2.external:javax.inject": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-api": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-locator": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-utils": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        },
+        "org.glassfish.hk2:osgi-resource-locator": {
+            "locked": "1.0.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.jersey.bundles.repackaged:jersey-guava": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common"
+            ]
+        },
+        "org.glassfish.jersey.containers:jersey-container-servlet": {
+            "locked": "2.23.1",
+            "requested": "latest.release"
+        },
+        "org.glassfish.jersey.containers:jersey-container-servlet-core": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-client": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-common": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-server": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core"
+            ]
+        },
+        "org.glassfish.jersey.media:jersey-media-jaxb": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.javassist:javassist": {
+            "locked": "3.18.1-GA",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        }
+    },
+    "default": {
+        "javax.annotation:javax.annotation-api": {
+            "locked": "1.2",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "javax.inject:javax.inject": {
+            "locked": "1",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-utils"
+            ]
+        },
+        "javax.servlet:javax.servlet-api": {
+            "locked": "3.1.0",
+            "requested": "3.1.0"
+        },
+        "javax.validation:validation-api": {
+            "locked": "1.1.0.Final",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "javax.websocket:javax.websocket-api": {
+            "locked": "1.0",
+            "requested": "1.0"
+        },
+        "javax.ws.rs:javax.ws.rs-api": {
+            "locked": "2.0.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.glassfish.hk2.external:aopalliance-repackaged": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        },
+        "org.glassfish.hk2.external:javax.inject": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-api": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-locator": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-utils": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        },
+        "org.glassfish.hk2:osgi-resource-locator": {
+            "locked": "1.0.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.jersey.bundles.repackaged:jersey-guava": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common"
+            ]
+        },
+        "org.glassfish.jersey.containers:jersey-container-servlet": {
+            "locked": "2.23.1",
+            "requested": "latest.release"
+        },
+        "org.glassfish.jersey.containers:jersey-container-servlet-core": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-client": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-common": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-server": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core"
+            ]
+        },
+        "org.glassfish.jersey.media:jersey-media-jaxb": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.javassist:javassist": {
+            "locked": "3.18.1-GA",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        }
+    },
+    "findbugs": {
+        "com.apple:AppleJavaExtensions": {
+            "locked": "1.4",
+            "transitive": [
+                "com.google.code.findbugs:findbugs"
+            ]
+        },
+        "com.google.code.findbugs:bcel-findbugs": {
+            "locked": "6.0",
+            "transitive": [
+                "com.google.code.findbugs:findbugs"
+            ]
+        },
+        "com.google.code.findbugs:findbugs": {
+            "locked": "3.0.1"
+        },
+        "com.google.code.findbugs:jFormatString": {
+            "locked": "2.0.1",
+            "transitive": [
+                "com.google.code.findbugs:findbugs"
+            ]
+        },
+        "com.google.code.findbugs:jsr305": {
+            "locked": "2.0.1",
+            "transitive": [
+                "com.google.code.findbugs:findbugs"
+            ]
+        },
+        "commons-lang:commons-lang": {
+            "locked": "2.6",
+            "transitive": [
+                "com.google.code.findbugs:findbugs"
+            ]
+        },
+        "dom4j:dom4j": {
+            "locked": "1.6.1",
+            "transitive": [
+                "com.google.code.findbugs:findbugs"
+            ]
+        },
+        "jaxen:jaxen": {
+            "locked": "1.1.6",
+            "transitive": [
+                "com.google.code.findbugs:findbugs"
+            ]
+        },
+        "net.jcip:jcip-annotations": {
+            "locked": "1.0",
+            "transitive": [
+                "com.google.code.findbugs:findbugs"
+            ]
+        },
+        "org.ow2.asm:asm": {
+            "locked": "5.0.2",
+            "transitive": [
+                "org.ow2.asm:asm-tree"
+            ]
+        },
+        "org.ow2.asm:asm-commons": {
+            "locked": "5.0.2",
+            "transitive": [
+                "com.google.code.findbugs:findbugs"
+            ]
+        },
+        "org.ow2.asm:asm-debug-all": {
+            "locked": "5.0.2",
+            "transitive": [
+                "com.google.code.findbugs:findbugs"
+            ]
+        },
+        "org.ow2.asm:asm-tree": {
+            "locked": "5.0.2",
+            "transitive": [
+                "org.ow2.asm:asm-commons"
+            ]
+        },
+        "xml-apis:xml-apis": {
+            "locked": "1.0.b2",
+            "transitive": [
+                "dom4j:dom4j"
+            ]
+        }
+    },
+    "grettyProductRuntime": {
+        "javax.annotation:javax.annotation-api": {
+            "locked": "1.2",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "javax.inject:javax.inject": {
+            "locked": "1",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-utils"
+            ]
+        },
+        "javax.servlet:javax.servlet-api": {
+            "locked": "3.1.0",
+            "requested": "3.1.0"
+        },
+        "javax.validation:validation-api": {
+            "locked": "1.1.0.Final",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "javax.websocket:javax.websocket-api": {
+            "locked": "1.0",
+            "requested": "1.0"
+        },
+        "javax.ws.rs:javax.ws.rs-api": {
+            "locked": "2.0.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.glassfish.hk2.external:aopalliance-repackaged": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        },
+        "org.glassfish.hk2.external:javax.inject": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-api": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-locator": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-utils": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        },
+        "org.glassfish.hk2:osgi-resource-locator": {
+            "locked": "1.0.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.jersey.bundles.repackaged:jersey-guava": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common"
+            ]
+        },
+        "org.glassfish.jersey.containers:jersey-container-servlet": {
+            "locked": "2.23.1",
+            "requested": "latest.release"
+        },
+        "org.glassfish.jersey.containers:jersey-container-servlet-core": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-client": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-common": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-server": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core"
+            ]
+        },
+        "org.glassfish.jersey.media:jersey-media-jaxb": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.javassist:javassist": {
+            "locked": "3.18.1-GA",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        }
+    },
+    "grettyProvidedCompile": {
+        "javax.servlet:javax.servlet-api": {
+            "locked": "3.1.0",
+            "requested": "3.1.0"
+        },
+        "javax.websocket:javax.websocket-api": {
+            "locked": "1.0",
+            "requested": "1.0"
+        }
+    },
+    "grettyRunnerJetty7": {
+        "ch.qos.logback:logback-classic": {
+            "locked": "1.1.3",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner"
+            ]
+        },
+        "ch.qos.logback:logback-core": {
+            "locked": "1.1.3",
+            "transitive": [
+                "ch.qos.logback:logback-classic"
+            ]
+        },
+        "commons-cli:commons-cli": {
+            "locked": "1.2",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner"
+            ]
+        },
+        "commons-io:commons-io": {
+            "locked": "2.4",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner"
+            ]
+        },
+        "javax.servlet:servlet-api": {
+            "locked": "2.5",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty7"
+            ]
+        },
+        "org.akhikhl.gretty:gretty-runner": {
+            "locked": "1.2.4",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty"
+            ]
+        },
+        "org.akhikhl.gretty:gretty-runner-jetty": {
+            "locked": "1.2.4",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty7"
+            ]
+        },
+        "org.akhikhl.gretty:gretty-runner-jetty7": {
+            "locked": "1.2.4",
+            "requested": "1.2.4"
+        },
+        "org.codehaus.groovy:groovy-all": {
+            "locked": "2.3.10",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner"
+            ]
+        },
+        "org.eclipse.jetty.orbit:com.sun.el": {
+            "locked": "1.0.0.v201105211818",
+            "transitive": [
+                "org.eclipse.jetty:jetty-jsp"
+            ]
+        },
+        "org.eclipse.jetty.orbit:javax.activation": {
+            "locked": "1.1.0.v201105071233",
+            "transitive": [
+                "org.eclipse.jetty.orbit:javax.mail.glassfish"
+            ]
+        },
+        "org.eclipse.jetty.orbit:javax.el": {
+            "locked": "2.1.0.v201105211819",
+            "transitive": [
+                "org.eclipse.jetty:jetty-jsp"
+            ]
+        },
+        "org.eclipse.jetty.orbit:javax.mail.glassfish": {
+            "locked": "1.4.1.v201005082020",
+            "transitive": [
+                "org.eclipse.jetty:jetty-jndi"
+            ]
+        },
+        "org.eclipse.jetty.orbit:javax.servlet.jsp": {
+            "locked": "2.1.0.v201105211820",
+            "transitive": [
+                "org.eclipse.jetty.orbit:javax.servlet.jsp.jstl",
+                "org.eclipse.jetty.orbit:org.apache.jasper.glassfish",
+                "org.eclipse.jetty:jetty-jsp"
+            ]
+        },
+        "org.eclipse.jetty.orbit:javax.servlet.jsp.jstl": {
+            "locked": "1.2.0.v201105211821",
+            "transitive": [
+                "org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish",
+                "org.eclipse.jetty:jetty-jsp"
+            ]
+        },
+        "org.eclipse.jetty.orbit:javax.transaction": {
+            "locked": "1.1.1.v201105210645",
+            "transitive": [
+                "org.eclipse.jetty:jetty-plus"
+            ]
+        },
+        "org.eclipse.jetty.orbit:org.apache.jasper.glassfish": {
+            "locked": "2.1.0.v201110031002",
+            "transitive": [
+                "org.eclipse.jetty:jetty-jsp"
+            ]
+        },
+        "org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish": {
+            "locked": "1.2.0.v201112081803",
+            "transitive": [
+                "org.eclipse.jetty:jetty-jsp"
+            ]
+        },
+        "org.eclipse.jetty.orbit:org.eclipse.jdt.core": {
+            "locked": "3.7.1",
+            "transitive": [
+                "org.eclipse.jetty:jetty-jsp"
+            ]
+        },
+        "org.eclipse.jetty:jetty-continuation": {
+            "locked": "7.6.16.v20140903",
+            "transitive": [
+                "org.eclipse.jetty:jetty-server"
+            ]
+        },
+        "org.eclipse.jetty:jetty-http": {
+            "locked": "7.6.16.v20140903",
+            "transitive": [
+                "org.eclipse.jetty:jetty-server"
+            ]
+        },
+        "org.eclipse.jetty:jetty-io": {
+            "locked": "7.6.16.v20140903",
+            "transitive": [
+                "org.eclipse.jetty:jetty-http"
+            ]
+        },
+        "org.eclipse.jetty:jetty-jndi": {
+            "locked": "7.6.16.v20140903",
+            "transitive": [
+                "org.eclipse.jetty:jetty-plus"
+            ]
+        },
+        "org.eclipse.jetty:jetty-jsp": {
+            "locked": "7.6.16.v20140903",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty7"
+            ]
+        },
+        "org.eclipse.jetty:jetty-plus": {
+            "locked": "7.6.16.v20140903",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty7"
+            ]
+        },
+        "org.eclipse.jetty:jetty-security": {
+            "locked": "7.6.16.v20140903",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty7",
+                "org.eclipse.jetty:jetty-servlet"
+            ]
+        },
+        "org.eclipse.jetty:jetty-server": {
+            "locked": "7.6.16.v20140903",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty7",
+                "org.eclipse.jetty:jetty-jndi",
+                "org.eclipse.jetty:jetty-security"
+            ]
+        },
+        "org.eclipse.jetty:jetty-servlet": {
+            "locked": "7.6.16.v20140903",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty7",
+                "org.eclipse.jetty:jetty-webapp"
+            ]
+        },
+        "org.eclipse.jetty:jetty-util": {
+            "locked": "7.6.16.v20140903",
+            "transitive": [
+                "org.eclipse.jetty:jetty-io",
+                "org.eclipse.jetty:jetty-xml"
+            ]
+        },
+        "org.eclipse.jetty:jetty-webapp": {
+            "locked": "7.6.16.v20140903",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty7",
+                "org.eclipse.jetty:jetty-plus"
+            ]
+        },
+        "org.eclipse.jetty:jetty-xml": {
+            "locked": "7.6.16.v20140903",
+            "transitive": [
+                "org.eclipse.jetty:jetty-webapp"
+            ]
+        },
+        "org.slf4j:slf4j-api": {
+            "locked": "1.7.7",
+            "transitive": [
+                "ch.qos.logback:logback-classic"
+            ]
+        }
+    },
+    "grettyRunnerJetty8": {
+        "ch.qos.logback:logback-classic": {
+            "locked": "1.1.3",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner"
+            ]
+        },
+        "ch.qos.logback:logback-core": {
+            "locked": "1.1.3",
+            "transitive": [
+                "ch.qos.logback:logback-classic"
+            ]
+        },
+        "commons-cli:commons-cli": {
+            "locked": "1.2",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner"
+            ]
+        },
+        "commons-io:commons-io": {
+            "locked": "2.4",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner"
+            ]
+        },
+        "javax.servlet:javax.servlet-api": {
+            "locked": "3.0.1",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty8"
+            ]
+        },
+        "org.akhikhl.gretty:gretty-runner": {
+            "locked": "1.2.4",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty"
+            ]
+        },
+        "org.akhikhl.gretty:gretty-runner-jetty": {
+            "locked": "1.2.4",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty8"
+            ]
+        },
+        "org.akhikhl.gretty:gretty-runner-jetty8": {
+            "locked": "1.2.4",
+            "requested": "1.2.4"
+        },
+        "org.codehaus.groovy:groovy-all": {
+            "locked": "2.3.10",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner"
+            ]
+        },
+        "org.eclipse.jetty.orbit:com.sun.el": {
+            "locked": "2.2.0.v201108011116",
+            "transitive": [
+                "org.eclipse.jetty:jetty-jsp"
+            ]
+        },
+        "org.eclipse.jetty.orbit:javax.activation": {
+            "locked": "1.1.0.v201105071233",
+            "transitive": [
+                "org.eclipse.jetty.orbit:javax.mail.glassfish"
+            ]
+        },
+        "org.eclipse.jetty.orbit:javax.annotation": {
+            "locked": "1.1.0.v201108011116",
+            "transitive": [
+                "org.eclipse.jetty:jetty-annotations"
+            ]
+        },
+        "org.eclipse.jetty.orbit:javax.el": {
+            "locked": "2.2.0.v201108011116",
+            "transitive": [
+                "org.eclipse.jetty:jetty-jsp"
+            ]
+        },
+        "org.eclipse.jetty.orbit:javax.mail.glassfish": {
+            "locked": "1.4.1.v201005082020",
+            "transitive": [
+                "org.eclipse.jetty:jetty-jndi"
+            ]
+        },
+        "org.eclipse.jetty.orbit:javax.servlet.jsp": {
+            "locked": "2.2.0.v201112011158",
+            "transitive": [
+                "org.eclipse.jetty.orbit:javax.servlet.jsp.jstl",
+                "org.eclipse.jetty.orbit:org.apache.jasper.glassfish",
+                "org.eclipse.jetty:jetty-jsp"
+            ]
+        },
+        "org.eclipse.jetty.orbit:javax.servlet.jsp.jstl": {
+            "locked": "1.2.0.v201105211821",
+            "transitive": [
+                "org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish",
+                "org.eclipse.jetty:jetty-jsp"
+            ]
+        },
+        "org.eclipse.jetty.orbit:javax.transaction": {
+            "locked": "1.1.1.v201105210645",
+            "transitive": [
+                "org.eclipse.jetty:jetty-plus"
+            ]
+        },
+        "org.eclipse.jetty.orbit:org.apache.jasper.glassfish": {
+            "locked": "2.2.2.v201112011158",
+            "transitive": [
+                "org.eclipse.jetty:jetty-jsp"
+            ]
+        },
+        "org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish": {
+            "locked": "1.2.0.v201112081803",
+            "transitive": [
+                "org.eclipse.jetty:jetty-jsp"
+            ]
+        },
+        "org.eclipse.jetty.orbit:org.eclipse.jdt.core": {
+            "locked": "3.7.1",
+            "transitive": [
+                "org.eclipse.jetty:jetty-jsp"
+            ]
+        },
+        "org.eclipse.jetty.orbit:org.objectweb.asm": {
+            "locked": "3.1.0.v200803061910",
+            "transitive": [
+                "org.eclipse.jetty:jetty-annotations"
+            ]
+        },
+        "org.eclipse.jetty:jetty-annotations": {
+            "locked": "8.1.8.v20121106",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty8"
+            ]
+        },
+        "org.eclipse.jetty:jetty-continuation": {
+            "locked": "8.1.8.v20121106",
+            "transitive": [
+                "org.eclipse.jetty:jetty-server"
+            ]
+        },
+        "org.eclipse.jetty:jetty-http": {
+            "locked": "8.1.8.v20121106",
+            "transitive": [
+                "org.eclipse.jetty:jetty-server"
+            ]
+        },
+        "org.eclipse.jetty:jetty-io": {
+            "locked": "8.1.8.v20121106",
+            "transitive": [
+                "org.eclipse.jetty:jetty-http"
+            ]
+        },
+        "org.eclipse.jetty:jetty-jndi": {
+            "locked": "8.1.8.v20121106",
+            "transitive": [
+                "org.eclipse.jetty:jetty-plus"
+            ]
+        },
+        "org.eclipse.jetty:jetty-jsp": {
+            "locked": "8.1.8.v20121106",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty8"
+            ]
+        },
+        "org.eclipse.jetty:jetty-plus": {
+            "locked": "8.1.8.v20121106",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty8",
+                "org.eclipse.jetty:jetty-annotations"
+            ]
+        },
+        "org.eclipse.jetty:jetty-security": {
+            "locked": "8.1.8.v20121106",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty8",
+                "org.eclipse.jetty:jetty-servlet"
+            ]
+        },
+        "org.eclipse.jetty:jetty-server": {
+            "locked": "8.1.8.v20121106",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty8",
+                "org.eclipse.jetty:jetty-jndi",
+                "org.eclipse.jetty:jetty-security"
+            ]
+        },
+        "org.eclipse.jetty:jetty-servlet": {
+            "locked": "8.1.8.v20121106",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty8",
+                "org.eclipse.jetty:jetty-webapp"
+            ]
+        },
+        "org.eclipse.jetty:jetty-util": {
+            "locked": "8.1.8.v20121106",
+            "transitive": [
+                "org.eclipse.jetty:jetty-io",
+                "org.eclipse.jetty:jetty-xml"
+            ]
+        },
+        "org.eclipse.jetty:jetty-webapp": {
+            "locked": "8.1.8.v20121106",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty8",
+                "org.eclipse.jetty:jetty-annotations",
+                "org.eclipse.jetty:jetty-plus"
+            ]
+        },
+        "org.eclipse.jetty:jetty-xml": {
+            "locked": "8.1.8.v20121106",
+            "transitive": [
+                "org.eclipse.jetty:jetty-webapp"
+            ]
+        },
+        "org.slf4j:slf4j-api": {
+            "locked": "1.7.7",
+            "transitive": [
+                "ch.qos.logback:logback-classic"
+            ]
+        }
+    },
+    "grettyRunnerJetty9": {
+        "ch.qos.logback:logback-classic": {
+            "locked": "1.1.3",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner"
+            ]
+        },
+        "ch.qos.logback:logback-core": {
+            "locked": "1.1.3",
+            "transitive": [
+                "ch.qos.logback:logback-classic"
+            ]
+        },
+        "commons-cli:commons-cli": {
+            "locked": "1.2",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner"
+            ]
+        },
+        "commons-io:commons-io": {
+            "locked": "2.4",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner"
+            ]
+        },
+        "javax.annotation:javax.annotation-api": {
+            "locked": "1.2",
+            "transitive": [
+                "org.eclipse.jetty:jetty-annotations"
+            ]
+        },
+        "javax.servlet.jsp:javax.servlet.jsp-api": {
+            "locked": "2.3.1",
+            "transitive": [
+                "org.eclipse.jetty:jetty-jsp",
+                "org.glassfish.web:javax.servlet.jsp"
+            ]
+        },
+        "javax.servlet:javax.servlet-api": {
+            "locked": "3.1.0",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty9",
+                "org.eclipse.jetty.websocket:websocket-servlet",
+                "org.eclipse.jetty:jetty-jsp",
+                "org.eclipse.jetty:jetty-server"
+            ]
+        },
+        "javax.websocket:javax.websocket-api": {
+            "locked": "1.0",
+            "transitive": [
+                "org.eclipse.jetty.websocket:javax-websocket-client-impl",
+                "org.eclipse.jetty.websocket:javax-websocket-server-impl"
+            ]
+        },
+        "org.akhikhl.gretty:gretty-runner": {
+            "locked": "1.2.4",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty"
+            ]
+        },
+        "org.akhikhl.gretty:gretty-runner-jetty": {
+            "locked": "1.2.4",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty9"
+            ]
+        },
+        "org.akhikhl.gretty:gretty-runner-jetty9": {
+            "locked": "1.2.4",
+            "requested": "1.2.4"
+        },
+        "org.codehaus.groovy:groovy-all": {
+            "locked": "2.3.10",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner"
+            ]
+        },
+        "org.eclipse.jetty.orbit:javax.servlet.jsp.jstl": {
+            "locked": "1.2.0.v201105211821",
+            "transitive": [
+                "org.eclipse.jetty:jetty-jsp"
+            ]
+        },
+        "org.eclipse.jetty.orbit:org.eclipse.jdt.core": {
+            "locked": "3.8.2.v20130121",
+            "transitive": [
+                "org.eclipse.jetty:jetty-jsp"
+            ]
+        },
+        "org.eclipse.jetty.toolchain:jetty-schemas": {
+            "locked": "3.1.M0",
+            "transitive": [
+                "org.eclipse.jetty:jetty-jsp"
+            ]
+        },
+        "org.eclipse.jetty.websocket:javax-websocket-client-impl": {
+            "locked": "9.2.10.v20150310",
+            "transitive": [
+                "org.eclipse.jetty.websocket:javax-websocket-server-impl"
+            ]
+        },
+        "org.eclipse.jetty.websocket:javax-websocket-server-impl": {
+            "locked": "9.2.10.v20150310",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty9"
+            ]
+        },
+        "org.eclipse.jetty.websocket:websocket-api": {
+            "locked": "9.2.10.v20150310",
+            "transitive": [
+                "org.eclipse.jetty.websocket:websocket-common",
+                "org.eclipse.jetty.websocket:websocket-servlet"
+            ]
+        },
+        "org.eclipse.jetty.websocket:websocket-client": {
+            "locked": "9.2.10.v20150310",
+            "transitive": [
+                "org.eclipse.jetty.websocket:javax-websocket-client-impl",
+                "org.eclipse.jetty.websocket:websocket-server"
+            ]
+        },
+        "org.eclipse.jetty.websocket:websocket-common": {
+            "locked": "9.2.10.v20150310",
+            "transitive": [
+                "org.eclipse.jetty.websocket:websocket-client",
+                "org.eclipse.jetty.websocket:websocket-server"
+            ]
+        },
+        "org.eclipse.jetty.websocket:websocket-server": {
+            "locked": "9.2.10.v20150310",
+            "transitive": [
+                "org.eclipse.jetty.websocket:javax-websocket-server-impl"
+            ]
+        },
+        "org.eclipse.jetty.websocket:websocket-servlet": {
+            "locked": "9.2.10.v20150310",
+            "transitive": [
+                "org.eclipse.jetty.websocket:websocket-server"
+            ]
+        },
+        "org.eclipse.jetty:jetty-annotations": {
+            "locked": "9.2.10.v20150310",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty9",
+                "org.eclipse.jetty.websocket:javax-websocket-server-impl"
+            ]
+        },
+        "org.eclipse.jetty:jetty-http": {
+            "locked": "9.2.10.v20150310",
+            "transitive": [
+                "org.eclipse.jetty.websocket:websocket-server",
+                "org.eclipse.jetty:jetty-server"
+            ]
+        },
+        "org.eclipse.jetty:jetty-io": {
+            "locked": "9.2.10.v20150310",
+            "transitive": [
+                "org.eclipse.jetty.websocket:websocket-client",
+                "org.eclipse.jetty.websocket:websocket-common",
+                "org.eclipse.jetty:jetty-server"
+            ]
+        },
+        "org.eclipse.jetty:jetty-jndi": {
+            "locked": "9.2.10.v20150310",
+            "transitive": [
+                "org.eclipse.jetty:jetty-plus"
+            ]
+        },
+        "org.eclipse.jetty:jetty-jsp": {
+            "locked": "9.2.10.v20150310",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty9"
+            ]
+        },
+        "org.eclipse.jetty:jetty-plus": {
+            "locked": "9.2.10.v20150310",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty9",
+                "org.eclipse.jetty:jetty-annotations"
+            ]
+        },
+        "org.eclipse.jetty:jetty-security": {
+            "locked": "9.2.10.v20150310",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty9",
+                "org.eclipse.jetty:jetty-servlet"
+            ]
+        },
+        "org.eclipse.jetty:jetty-server": {
+            "locked": "9.2.10.v20150310",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty9",
+                "org.eclipse.jetty:jetty-security"
+            ]
+        },
+        "org.eclipse.jetty:jetty-servlet": {
+            "locked": "9.2.10.v20150310",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty9",
+                "org.eclipse.jetty.websocket:websocket-server",
+                "org.eclipse.jetty:jetty-webapp"
+            ]
+        },
+        "org.eclipse.jetty:jetty-util": {
+            "locked": "9.2.10.v20150310",
+            "transitive": [
+                "org.eclipse.jetty.websocket:websocket-client",
+                "org.eclipse.jetty.websocket:websocket-common",
+                "org.eclipse.jetty:jetty-http",
+                "org.eclipse.jetty:jetty-io",
+                "org.eclipse.jetty:jetty-jndi",
+                "org.eclipse.jetty:jetty-xml"
+            ]
+        },
+        "org.eclipse.jetty:jetty-webapp": {
+            "locked": "9.2.10.v20150310",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty9",
+                "org.eclipse.jetty:jetty-annotations",
+                "org.eclipse.jetty:jetty-plus"
+            ]
+        },
+        "org.eclipse.jetty:jetty-xml": {
+            "locked": "9.2.10.v20150310",
+            "transitive": [
+                "org.eclipse.jetty:jetty-webapp"
+            ]
+        },
+        "org.glassfish.web:javax.servlet.jsp": {
+            "locked": "2.3.2",
+            "transitive": [
+                "org.eclipse.jetty:jetty-jsp"
+            ]
+        },
+        "org.glassfish.web:javax.servlet.jsp.jstl": {
+            "locked": "1.2.2",
+            "transitive": [
+                "org.eclipse.jetty:jetty-jsp"
+            ]
+        },
+        "org.glassfish:javax.el": {
+            "locked": "3.0.1-b08",
+            "transitive": [
+                "org.eclipse.jetty:jetty-jsp",
+                "org.glassfish.web:javax.servlet.jsp"
+            ]
+        },
+        "org.ow2.asm:asm": {
+            "locked": "5.0.3",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty9",
+                "org.eclipse.jetty:jetty-annotations",
+                "org.ow2.asm:asm-tree"
+            ]
+        },
+        "org.ow2.asm:asm-commons": {
+            "locked": "5.0.3",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-jetty9",
+                "org.eclipse.jetty:jetty-annotations"
+            ]
+        },
+        "org.ow2.asm:asm-tree": {
+            "locked": "5.0.3",
+            "transitive": [
+                "org.ow2.asm:asm-commons"
+            ]
+        },
+        "org.slf4j:slf4j-api": {
+            "locked": "1.7.7",
+            "transitive": [
+                "ch.qos.logback:logback-classic"
+            ]
+        }
+    },
+    "grettyRunnerTomcat7": {
+        "ch.qos.logback:logback-classic": {
+            "locked": "1.1.3",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner"
+            ]
+        },
+        "ch.qos.logback:logback-core": {
+            "locked": "1.1.3",
+            "transitive": [
+                "ch.qos.logback:logback-classic"
+            ]
+        },
+        "commons-cli:commons-cli": {
+            "locked": "1.2",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner"
+            ]
+        },
+        "commons-io:commons-io": {
+            "locked": "2.4",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner"
+            ]
+        },
+        "javax.servlet:javax.servlet-api": {
+            "locked": "3.0.1",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-tomcat"
+            ]
+        },
+        "org.akhikhl.gretty:gretty-runner": {
+            "locked": "1.2.4",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-tomcat"
+            ]
+        },
+        "org.akhikhl.gretty:gretty-runner-tomcat": {
+            "locked": "1.2.4",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-tomcat7"
+            ]
+        },
+        "org.akhikhl.gretty:gretty-runner-tomcat7": {
+            "locked": "1.2.4",
+            "requested": "1.2.4"
+        },
+        "org.apache.tomcat.embed:tomcat-embed-core": {
+            "locked": "7.0.62",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-tomcat",
+                "org.apache.tomcat.embed:tomcat-embed-jasper",
+                "org.apache.tomcat.embed:tomcat-embed-websocket"
+            ]
+        },
+        "org.apache.tomcat.embed:tomcat-embed-el": {
+            "locked": "7.0.62",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-tomcat7",
+                "org.apache.tomcat.embed:tomcat-embed-jasper"
+            ]
+        },
+        "org.apache.tomcat.embed:tomcat-embed-jasper": {
+            "locked": "7.0.62",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-tomcat7"
+            ]
+        },
+        "org.apache.tomcat.embed:tomcat-embed-logging-log4j": {
+            "locked": "7.0.62",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-tomcat"
+            ]
+        },
+        "org.apache.tomcat.embed:tomcat-embed-websocket": {
+            "locked": "7.0.62",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-tomcat7"
+            ]
+        },
+        "org.codehaus.groovy:groovy-all": {
+            "locked": "2.3.10",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner"
+            ]
+        },
+        "org.eclipse.jdt.core.compiler:ecj": {
+            "locked": "4.4.2",
+            "transitive": [
+                "org.apache.tomcat.embed:tomcat-embed-jasper"
+            ]
+        },
+        "org.slf4j:log4j-over-slf4j": {
+            "locked": "1.7.12",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-tomcat"
+            ]
+        },
+        "org.slf4j:slf4j-api": {
+            "locked": "1.7.12",
+            "transitive": [
+                "ch.qos.logback:logback-classic",
+                "org.slf4j:log4j-over-slf4j"
+            ]
+        }
+    },
+    "grettyRunnerTomcat8": {
+        "ch.qos.logback:logback-classic": {
+            "locked": "1.1.3",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner"
+            ]
+        },
+        "ch.qos.logback:logback-core": {
+            "locked": "1.1.3",
+            "transitive": [
+                "ch.qos.logback:logback-classic"
+            ]
+        },
+        "commons-cli:commons-cli": {
+            "locked": "1.2",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner"
+            ]
+        },
+        "commons-io:commons-io": {
+            "locked": "2.4",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner"
+            ]
+        },
+        "javax.servlet:javax.servlet-api": {
+            "locked": "3.1.0",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-tomcat8"
+            ]
+        },
+        "org.akhikhl.gretty:gretty-runner": {
+            "locked": "1.2.4",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-tomcat"
+            ]
+        },
+        "org.akhikhl.gretty:gretty-runner-tomcat": {
+            "locked": "1.2.4",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-tomcat8"
+            ]
+        },
+        "org.akhikhl.gretty:gretty-runner-tomcat8": {
+            "locked": "1.2.4",
+            "requested": "1.2.4"
+        },
+        "org.apache.tomcat.embed:tomcat-embed-core": {
+            "locked": "8.0.23",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-tomcat",
+                "org.akhikhl.gretty:gretty-runner-tomcat8",
+                "org.apache.tomcat.embed:tomcat-embed-jasper",
+                "org.apache.tomcat.embed:tomcat-embed-websocket"
+            ]
+        },
+        "org.apache.tomcat.embed:tomcat-embed-el": {
+            "locked": "8.0.23",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-tomcat8",
+                "org.apache.tomcat.embed:tomcat-embed-jasper"
+            ]
+        },
+        "org.apache.tomcat.embed:tomcat-embed-jasper": {
+            "locked": "8.0.23",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-tomcat8"
+            ]
+        },
+        "org.apache.tomcat.embed:tomcat-embed-logging-log4j": {
+            "locked": "8.0.23",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-tomcat",
+                "org.akhikhl.gretty:gretty-runner-tomcat8"
+            ]
+        },
+        "org.apache.tomcat.embed:tomcat-embed-websocket": {
+            "locked": "8.0.23",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-tomcat8"
+            ]
+        },
+        "org.codehaus.groovy:groovy-all": {
+            "locked": "2.3.10",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner"
+            ]
+        },
+        "org.eclipse.jdt.core.compiler:ecj": {
+            "locked": "4.4.2",
+            "transitive": [
+                "org.apache.tomcat.embed:tomcat-embed-jasper"
+            ]
+        },
+        "org.slf4j:log4j-over-slf4j": {
+            "locked": "1.7.12",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-runner-tomcat"
+            ]
+        },
+        "org.slf4j:slf4j-api": {
+            "locked": "1.7.12",
+            "transitive": [
+                "ch.qos.logback:logback-classic",
+                "org.slf4j:log4j-over-slf4j"
+            ]
+        }
+    },
+    "grettySpringLoaded": {
+        "org.springframework:springloaded": {
+            "locked": "1.2.3.RELEASE",
+            "requested": "1.2.3.RELEASE"
+        }
+    },
+    "grettyStarter": {
+        "ch.qos.logback:logback-classic": {
+            "locked": "1.1.3",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-core"
+            ]
+        },
+        "ch.qos.logback:logback-core": {
+            "locked": "1.1.3",
+            "transitive": [
+                "ch.qos.logback:logback-classic"
+            ]
+        },
+        "commons-cli:commons-cli": {
+            "locked": "1.2",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-core"
+            ]
+        },
+        "commons-configuration:commons-configuration": {
+            "locked": "1.10",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-core"
+            ]
+        },
+        "commons-io:commons-io": {
+            "locked": "2.4",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-core"
+            ]
+        },
+        "commons-lang:commons-lang": {
+            "locked": "2.6",
+            "transitive": [
+                "commons-configuration:commons-configuration"
+            ]
+        },
+        "commons-logging:commons-logging": {
+            "locked": "1.1.1",
+            "transitive": [
+                "commons-configuration:commons-configuration"
+            ]
+        },
+        "org.akhikhl.gretty:gretty-core": {
+            "locked": "1.2.4",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-starter"
+            ]
+        },
+        "org.akhikhl.gretty:gretty-starter": {
+            "locked": "1.2.4",
+            "requested": "1.2.4"
+        },
+        "org.apache.commons:commons-lang3": {
+            "locked": "3.3.2",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-core"
+            ]
+        },
+        "org.bouncycastle:bcprov-jdk16": {
+            "locked": "1.46",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-core"
+            ]
+        },
+        "org.codehaus.groovy:groovy-all": {
+            "locked": "2.3.10",
+            "transitive": [
+                "org.akhikhl.gretty:gretty-core"
+            ]
+        },
+        "org.slf4j:slf4j-api": {
+            "locked": "1.7.7",
+            "transitive": [
+                "ch.qos.logback:logback-classic"
+            ]
+        }
+    },
+    "jacocoAgent": {
+        "org.jacoco:org.jacoco.agent": {
+            "locked": "0.7.6.201602180812"
+        }
+    },
+    "jacocoAnt": {
+        "org.jacoco:org.jacoco.agent": {
+            "locked": "0.7.6.201602180812",
+            "transitive": [
+                "org.jacoco:org.jacoco.ant"
+            ]
+        },
+        "org.jacoco:org.jacoco.ant": {
+            "locked": "0.7.6.201602180812"
+        },
+        "org.jacoco:org.jacoco.core": {
+            "locked": "0.7.6.201602180812",
+            "transitive": [
+                "org.jacoco:org.jacoco.ant",
+                "org.jacoco:org.jacoco.report"
+            ]
+        },
+        "org.jacoco:org.jacoco.report": {
+            "locked": "0.7.6.201602180812",
+            "transitive": [
+                "org.jacoco:org.jacoco.ant"
+            ]
+        },
+        "org.ow2.asm:asm-debug-all": {
+            "locked": "5.0.4",
+            "transitive": [
+                "org.jacoco:org.jacoco.core",
+                "org.jacoco:org.jacoco.report"
+            ]
+        }
+    },
+    "providedCompile": {
+        "javax.servlet:javax.servlet-api": {
+            "locked": "3.1.0",
+            "requested": "3.1.0"
+        },
+        "javax.websocket:javax.websocket-api": {
+            "locked": "1.0",
+            "requested": "1.0"
+        }
+    },
+    "providedRuntime": {
+        "javax.servlet:javax.servlet-api": {
+            "locked": "3.1.0",
+            "requested": "3.1.0"
+        },
+        "javax.websocket:javax.websocket-api": {
+            "locked": "1.0",
+            "requested": "1.0"
+        }
+    },
+    "runtime": {
+        "javax.annotation:javax.annotation-api": {
+            "locked": "1.2",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "javax.inject:javax.inject": {
+            "locked": "1",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-utils"
+            ]
+        },
+        "javax.servlet:javax.servlet-api": {
+            "locked": "3.1.0",
+            "requested": "3.1.0"
+        },
+        "javax.validation:validation-api": {
+            "locked": "1.1.0.Final",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "javax.websocket:javax.websocket-api": {
+            "locked": "1.0",
+            "requested": "1.0"
+        },
+        "javax.ws.rs:javax.ws.rs-api": {
+            "locked": "2.0.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.glassfish.hk2.external:aopalliance-repackaged": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        },
+        "org.glassfish.hk2.external:javax.inject": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-api": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-locator": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-utils": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        },
+        "org.glassfish.hk2:osgi-resource-locator": {
+            "locked": "1.0.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.jersey.bundles.repackaged:jersey-guava": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common"
+            ]
+        },
+        "org.glassfish.jersey.containers:jersey-container-servlet": {
+            "locked": "2.23.1",
+            "requested": "latest.release"
+        },
+        "org.glassfish.jersey.containers:jersey-container-servlet-core": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-client": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-common": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-server": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core"
+            ]
+        },
+        "org.glassfish.jersey.media:jersey-media-jaxb": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.javassist:javassist": {
+            "locked": "3.18.1-GA",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        }
+    },
+    "springBoot": {
+        "javax.annotation:javax.annotation-api": {
+            "locked": "1.2",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "javax.inject:javax.inject": {
+            "locked": "1",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-utils"
+            ]
+        },
+        "javax.servlet:javax.servlet-api": {
+            "locked": "3.1.0",
+            "requested": "3.1.0"
+        },
+        "javax.validation:validation-api": {
+            "locked": "1.1.0.Final",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "javax.websocket:javax.websocket-api": {
+            "locked": "1.0",
+            "requested": "1.0"
+        },
+        "javax.ws.rs:javax.ws.rs-api": {
+            "locked": "2.0.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.glassfish.hk2.external:aopalliance-repackaged": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        },
+        "org.glassfish.hk2.external:javax.inject": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-api": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-locator": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-utils": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        },
+        "org.glassfish.hk2:osgi-resource-locator": {
+            "locked": "1.0.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.jersey.bundles.repackaged:jersey-guava": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common"
+            ]
+        },
+        "org.glassfish.jersey.containers:jersey-container-servlet": {
+            "locked": "2.23.1",
+            "requested": "latest.release"
+        },
+        "org.glassfish.jersey.containers:jersey-container-servlet-core": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-client": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-common": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-server": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core"
+            ]
+        },
+        "org.glassfish.jersey.media:jersey-media-jaxb": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.javassist:javassist": {
+            "locked": "3.18.1-GA",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        }
+    },
+    "testCompile": {
+        "javax.annotation:javax.annotation-api": {
+            "locked": "1.2",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "javax.inject:javax.inject": {
+            "locked": "1",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-utils"
+            ]
+        },
+        "javax.servlet:javax.servlet-api": {
+            "locked": "3.1.0",
+            "requested": "3.1.0",
+            "transitive": [
+                "org.eclipse.jetty:jetty-server",
+                "org.glassfish.jersey.test-framework:jersey-test-framework-core"
+            ]
+        },
+        "javax.validation:validation-api": {
+            "locked": "1.1.0.Final",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "javax.websocket:javax.websocket-api": {
+            "locked": "1.0",
+            "requested": "1.0"
+        },
+        "javax.ws.rs:javax.ws.rs-api": {
+            "locked": "2.0.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-jetty-http",
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "junit:junit": {
+            "locked": "4.12",
+            "requested": "latest.release",
+            "transitive": [
+                "org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jetty",
+                "org.glassfish.jersey.test-framework:jersey-test-framework-core"
+            ]
+        },
+        "org.eclipse.jetty:jetty-continuation": {
+            "locked": "9.2.14.v20151106",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-jetty-http"
+            ]
+        },
+        "org.eclipse.jetty:jetty-http": {
+            "locked": "9.2.14.v20151106",
+            "transitive": [
+                "org.eclipse.jetty:jetty-server"
+            ]
+        },
+        "org.eclipse.jetty:jetty-io": {
+            "locked": "9.2.14.v20151106",
+            "transitive": [
+                "org.eclipse.jetty:jetty-server"
+            ]
+        },
+        "org.eclipse.jetty:jetty-server": {
+            "locked": "9.2.14.v20151106",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-jetty-http"
+            ]
+        },
+        "org.eclipse.jetty:jetty-util": {
+            "locked": "9.2.14.v20151106",
+            "transitive": [
+                "org.eclipse.jetty:jetty-http",
+                "org.eclipse.jetty:jetty-io",
+                "org.glassfish.jersey.containers:jersey-container-jetty-http"
+            ]
+        },
+        "org.glassfish.hk2.external:aopalliance-repackaged": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        },
+        "org.glassfish.hk2.external:javax.inject": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator",
+                "org.glassfish.jersey.containers:jersey-container-jetty-http",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-api": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-locator": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-utils": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        },
+        "org.glassfish.hk2:osgi-resource-locator": {
+            "locked": "1.0.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.jersey.bundles.repackaged:jersey-guava": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common"
+            ]
+        },
+        "org.glassfish.jersey.containers:jersey-container-jetty-http": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jetty"
+            ]
+        },
+        "org.glassfish.jersey.containers:jersey-container-servlet": {
+            "locked": "2.23.1",
+            "requested": "latest.release"
+        },
+        "org.glassfish.jersey.containers:jersey-container-servlet-core": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.test-framework:jersey-test-framework-core"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-client": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-common": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-jetty-http",
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-server": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-jetty-http",
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.test-framework:jersey-test-framework-core"
+            ]
+        },
+        "org.glassfish.jersey.media:jersey-media-jaxb": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jetty": {
+            "locked": "2.23.1",
+            "requested": "latest.release"
+        },
+        "org.glassfish.jersey.test-framework:jersey-test-framework-core": {
+            "locked": "2.23.1",
+            "requested": "latest.release",
+            "transitive": [
+                "org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jetty"
+            ]
+        },
+        "org.hamcrest:hamcrest-core": {
+            "locked": "1.3",
+            "transitive": [
+                "junit:junit"
+            ]
+        },
+        "org.javassist:javassist": {
+            "locked": "3.18.1-GA",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        },
+        "org.ow2.asm:asm-debug-all": {
+            "locked": "5.0.4",
+            "transitive": [
+                "org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jetty",
+                "org.glassfish.jersey.test-framework:jersey-test-framework-core"
+            ]
+        }
+    },
+    "testCompileClasspath": {
+        "javax.annotation:javax.annotation-api": {
+            "locked": "1.2",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "javax.inject:javax.inject": {
+            "locked": "1",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-utils"
+            ]
+        },
+        "javax.servlet:javax.servlet-api": {
+            "locked": "3.1.0",
+            "requested": "3.1.0",
+            "transitive": [
+                "org.eclipse.jetty:jetty-server",
+                "org.glassfish.jersey.test-framework:jersey-test-framework-core"
+            ]
+        },
+        "javax.validation:validation-api": {
+            "locked": "1.1.0.Final",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "javax.websocket:javax.websocket-api": {
+            "locked": "1.0",
+            "requested": "1.0"
+        },
+        "javax.ws.rs:javax.ws.rs-api": {
+            "locked": "2.0.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-jetty-http",
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "junit:junit": {
+            "locked": "4.12",
+            "requested": "latest.release",
+            "transitive": [
+                "org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jetty",
+                "org.glassfish.jersey.test-framework:jersey-test-framework-core"
+            ]
+        },
+        "org.eclipse.jetty:jetty-continuation": {
+            "locked": "9.2.14.v20151106",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-jetty-http"
+            ]
+        },
+        "org.eclipse.jetty:jetty-http": {
+            "locked": "9.2.14.v20151106",
+            "transitive": [
+                "org.eclipse.jetty:jetty-server"
+            ]
+        },
+        "org.eclipse.jetty:jetty-io": {
+            "locked": "9.2.14.v20151106",
+            "transitive": [
+                "org.eclipse.jetty:jetty-server"
+            ]
+        },
+        "org.eclipse.jetty:jetty-server": {
+            "locked": "9.2.14.v20151106",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-jetty-http"
+            ]
+        },
+        "org.eclipse.jetty:jetty-util": {
+            "locked": "9.2.14.v20151106",
+            "transitive": [
+                "org.eclipse.jetty:jetty-http",
+                "org.eclipse.jetty:jetty-io",
+                "org.glassfish.jersey.containers:jersey-container-jetty-http"
+            ]
+        },
+        "org.glassfish.hk2.external:aopalliance-repackaged": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        },
+        "org.glassfish.hk2.external:javax.inject": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator",
+                "org.glassfish.jersey.containers:jersey-container-jetty-http",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-api": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-locator": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-utils": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        },
+        "org.glassfish.hk2:osgi-resource-locator": {
+            "locked": "1.0.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.jersey.bundles.repackaged:jersey-guava": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common"
+            ]
+        },
+        "org.glassfish.jersey.containers:jersey-container-jetty-http": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jetty"
+            ]
+        },
+        "org.glassfish.jersey.containers:jersey-container-servlet": {
+            "locked": "2.23.1",
+            "requested": "latest.release"
+        },
+        "org.glassfish.jersey.containers:jersey-container-servlet-core": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.test-framework:jersey-test-framework-core"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-client": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-common": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-jetty-http",
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-server": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-jetty-http",
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.test-framework:jersey-test-framework-core"
+            ]
+        },
+        "org.glassfish.jersey.media:jersey-media-jaxb": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jetty": {
+            "locked": "2.23.1",
+            "requested": "latest.release"
+        },
+        "org.glassfish.jersey.test-framework:jersey-test-framework-core": {
+            "locked": "2.23.1",
+            "requested": "latest.release",
+            "transitive": [
+                "org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jetty"
+            ]
+        },
+        "org.hamcrest:hamcrest-core": {
+            "locked": "1.3",
+            "transitive": [
+                "junit:junit"
+            ]
+        },
+        "org.javassist:javassist": {
+            "locked": "3.18.1-GA",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        },
+        "org.ow2.asm:asm-debug-all": {
+            "locked": "5.0.4",
+            "transitive": [
+                "org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jetty",
+                "org.glassfish.jersey.test-framework:jersey-test-framework-core"
+            ]
+        }
+    },
+    "testCompileOnly": {
+        "javax.annotation:javax.annotation-api": {
+            "locked": "1.2",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "javax.inject:javax.inject": {
+            "locked": "1",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-utils"
+            ]
+        },
+        "javax.servlet:javax.servlet-api": {
+            "locked": "3.1.0",
+            "requested": "3.1.0",
+            "transitive": [
+                "org.eclipse.jetty:jetty-server",
+                "org.glassfish.jersey.test-framework:jersey-test-framework-core"
+            ]
+        },
+        "javax.validation:validation-api": {
+            "locked": "1.1.0.Final",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "javax.websocket:javax.websocket-api": {
+            "locked": "1.0",
+            "requested": "1.0"
+        },
+        "javax.ws.rs:javax.ws.rs-api": {
+            "locked": "2.0.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-jetty-http",
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "junit:junit": {
+            "locked": "4.12",
+            "requested": "latest.release",
+            "transitive": [
+                "org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jetty",
+                "org.glassfish.jersey.test-framework:jersey-test-framework-core"
+            ]
+        },
+        "org.eclipse.jetty:jetty-continuation": {
+            "locked": "9.2.14.v20151106",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-jetty-http"
+            ]
+        },
+        "org.eclipse.jetty:jetty-http": {
+            "locked": "9.2.14.v20151106",
+            "transitive": [
+                "org.eclipse.jetty:jetty-server"
+            ]
+        },
+        "org.eclipse.jetty:jetty-io": {
+            "locked": "9.2.14.v20151106",
+            "transitive": [
+                "org.eclipse.jetty:jetty-server"
+            ]
+        },
+        "org.eclipse.jetty:jetty-server": {
+            "locked": "9.2.14.v20151106",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-jetty-http"
+            ]
+        },
+        "org.eclipse.jetty:jetty-util": {
+            "locked": "9.2.14.v20151106",
+            "transitive": [
+                "org.eclipse.jetty:jetty-http",
+                "org.eclipse.jetty:jetty-io",
+                "org.glassfish.jersey.containers:jersey-container-jetty-http"
+            ]
+        },
+        "org.glassfish.hk2.external:aopalliance-repackaged": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        },
+        "org.glassfish.hk2.external:javax.inject": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator",
+                "org.glassfish.jersey.containers:jersey-container-jetty-http",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-api": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-locator": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-utils": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        },
+        "org.glassfish.hk2:osgi-resource-locator": {
+            "locked": "1.0.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.jersey.bundles.repackaged:jersey-guava": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common"
+            ]
+        },
+        "org.glassfish.jersey.containers:jersey-container-jetty-http": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jetty"
+            ]
+        },
+        "org.glassfish.jersey.containers:jersey-container-servlet": {
+            "locked": "2.23.1",
+            "requested": "latest.release"
+        },
+        "org.glassfish.jersey.containers:jersey-container-servlet-core": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.test-framework:jersey-test-framework-core"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-client": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-common": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-jetty-http",
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-server": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-jetty-http",
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.test-framework:jersey-test-framework-core"
+            ]
+        },
+        "org.glassfish.jersey.media:jersey-media-jaxb": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jetty": {
+            "locked": "2.23.1",
+            "requested": "latest.release"
+        },
+        "org.glassfish.jersey.test-framework:jersey-test-framework-core": {
+            "locked": "2.23.1",
+            "requested": "latest.release",
+            "transitive": [
+                "org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jetty"
+            ]
+        },
+        "org.hamcrest:hamcrest-core": {
+            "locked": "1.3",
+            "transitive": [
+                "junit:junit"
+            ]
+        },
+        "org.javassist:javassist": {
+            "locked": "3.18.1-GA",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        },
+        "org.ow2.asm:asm-debug-all": {
+            "locked": "5.0.4",
+            "transitive": [
+                "org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jetty",
+                "org.glassfish.jersey.test-framework:jersey-test-framework-core"
+            ]
+        }
+    },
+    "testRuntime": {
+        "javax.annotation:javax.annotation-api": {
+            "locked": "1.2",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "javax.inject:javax.inject": {
+            "locked": "1",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-utils"
+            ]
+        },
+        "javax.servlet:javax.servlet-api": {
+            "locked": "3.1.0",
+            "requested": "3.1.0",
+            "transitive": [
+                "org.eclipse.jetty:jetty-server",
+                "org.glassfish.jersey.test-framework:jersey-test-framework-core"
+            ]
+        },
+        "javax.validation:validation-api": {
+            "locked": "1.1.0.Final",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "javax.websocket:javax.websocket-api": {
+            "locked": "1.0",
+            "requested": "1.0"
+        },
+        "javax.ws.rs:javax.ws.rs-api": {
+            "locked": "2.0.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-jetty-http",
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "junit:junit": {
+            "locked": "4.12",
+            "requested": "latest.release",
+            "transitive": [
+                "org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jetty",
+                "org.glassfish.jersey.test-framework:jersey-test-framework-core"
+            ]
+        },
+        "org.eclipse.jetty:jetty-continuation": {
+            "locked": "9.2.14.v20151106",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-jetty-http"
+            ]
+        },
+        "org.eclipse.jetty:jetty-http": {
+            "locked": "9.2.14.v20151106",
+            "transitive": [
+                "org.eclipse.jetty:jetty-server"
+            ]
+        },
+        "org.eclipse.jetty:jetty-io": {
+            "locked": "9.2.14.v20151106",
+            "transitive": [
+                "org.eclipse.jetty:jetty-server"
+            ]
+        },
+        "org.eclipse.jetty:jetty-server": {
+            "locked": "9.2.14.v20151106",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-jetty-http"
+            ]
+        },
+        "org.eclipse.jetty:jetty-util": {
+            "locked": "9.2.14.v20151106",
+            "transitive": [
+                "org.eclipse.jetty:jetty-http",
+                "org.eclipse.jetty:jetty-io",
+                "org.glassfish.jersey.containers:jersey-container-jetty-http"
+            ]
+        },
+        "org.glassfish.hk2.external:aopalliance-repackaged": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        },
+        "org.glassfish.hk2.external:javax.inject": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator",
+                "org.glassfish.jersey.containers:jersey-container-jetty-http",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-api": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-locator": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.hk2:hk2-utils": {
+            "locked": "2.4.0-b34",
+            "transitive": [
+                "org.glassfish.hk2:hk2-api",
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        },
+        "org.glassfish.hk2:osgi-resource-locator": {
+            "locked": "1.0.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.jersey.bundles.repackaged:jersey-guava": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-common"
+            ]
+        },
+        "org.glassfish.jersey.containers:jersey-container-jetty-http": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jetty"
+            ]
+        },
+        "org.glassfish.jersey.containers:jersey-container-servlet": {
+            "locked": "2.23.1",
+            "requested": "latest.release"
+        },
+        "org.glassfish.jersey.containers:jersey-container-servlet-core": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.test-framework:jersey-test-framework-core"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-client": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-common": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-jetty-http",
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.core:jersey-client",
+                "org.glassfish.jersey.core:jersey-server",
+                "org.glassfish.jersey.media:jersey-media-jaxb"
+            ]
+        },
+        "org.glassfish.jersey.core:jersey-server": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.containers:jersey-container-jetty-http",
+                "org.glassfish.jersey.containers:jersey-container-servlet",
+                "org.glassfish.jersey.containers:jersey-container-servlet-core",
+                "org.glassfish.jersey.test-framework:jersey-test-framework-core"
+            ]
+        },
+        "org.glassfish.jersey.media:jersey-media-jaxb": {
+            "locked": "2.23.1",
+            "transitive": [
+                "org.glassfish.jersey.core:jersey-server"
+            ]
+        },
+        "org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jetty": {
+            "locked": "2.23.1",
+            "requested": "latest.release"
+        },
+        "org.glassfish.jersey.test-framework:jersey-test-framework-core": {
+            "locked": "2.23.1",
+            "requested": "latest.release",
+            "transitive": [
+                "org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jetty"
+            ]
+        },
+        "org.hamcrest:hamcrest-core": {
+            "locked": "1.3",
+            "transitive": [
+                "junit:junit"
+            ]
+        },
+        "org.javassist:javassist": {
+            "locked": "3.18.1-GA",
+            "transitive": [
+                "org.glassfish.hk2:hk2-locator"
+            ]
+        },
+        "org.ow2.asm:asm-debug-all": {
+            "locked": "5.0.4",
+            "transitive": [
+                "org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jetty",
+                "org.glassfish.jersey.test-framework:jersey-test-framework-core"
+            ]
+        }
+    }
+}

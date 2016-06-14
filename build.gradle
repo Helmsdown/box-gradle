@@ -1,0 +1,44 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "com.netflix.nebula:gradle-dependency-lock-plugin:4.3.0"
+    }
+}
+
+apply plugin: "java"
+apply plugin: "jacoco"
+apply plugin: "findbugs"
+apply plugin: "war"
+apply from: 'https://raw.github.com/akhikhl/gretty/master/pluginScripts/gretty.plugin'
+apply plugin: "nebula.dependency-lock"
+
+task wrapper(type: Wrapper) {
+	gradleVersion = '2.13'
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile group: 'org.glassfish.jersey.containers', name: 'jersey-container-servlet', version: 'latest.release'
+	testCompile group: 'junit', name: 'junit', version: 'latest.release'
+	testCompile group: 'org.glassfish.jersey.test-framework', name: 'jersey-test-framework-core', version: 'latest.release'
+	testCompile group: 'org.glassfish.jersey.test-framework.providers', name: 'jersey-test-framework-provider-jetty', version: 'latest.release'
+}
+
+tasks.withType(FindBugs) {
+    effort = 'max'
+    ignoreFailures = false
+    reportLevel = 'low'
+    reports {
+        xml.enabled false
+        html.enabled true
+    }
+}
+
+dependencyLock {
+    includeTransitives = true
+}
